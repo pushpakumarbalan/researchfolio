@@ -2,7 +2,7 @@
 
 A clean, fast, and lightweight portfolio template built with [Next.js](https://nextjs.org/), [Vercel](https://vercel.com/), and [Tailwind CSS](https://tailwindcss.com/).
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2F1msirius%2FNextfolio)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fpushpakumarbalan%2Fresearchfolio)
 
 ## Technologies Used
 
@@ -17,7 +17,7 @@ A clean, fast, and lightweight portfolio template built with [Next.js](https://n
 - **Light and Dark Mode Toggle**: Switch between themes for better readability.
 - **Dynamic [OG Images](https://vercel.com/docs/functions/og-image-generation)**: Auto-generate Open Graph images for sharing.
 - **SEO Optimization**: Enhance search visibility with sitemap, robots.txt, and JSON-LD schema.
-- **Dynamic Feed Generation**: Automatic dynamic [RSS](https://nextfolio-template.vercel.app/rss.xml), [Atom](https://nextfolio-template.vercel.app/atom.xml), and [JSON](https://nextfolio-template.vercel.app/feed.json) feeds.
+- **Dynamic Feed Generation**: Automatic dynamic [RSS](https://research-folio.vercel.app/rss.xml), [Atom](https://research-folio.vercel.app/atom.xml), and [JSON](https://research-folio.vercel.app/feed.json) feeds.
 - **[KaTeX](https://katex.org/) Integration**: Render mathematical expressions smoothly.
 - **Performance Tracking**: Monitor web performance with [Vercel Web Analytics](https://vercel.com/docs/speed-insights) and [Speed Insights](https://vercel.com/docs/speed-insights).
 - **Interactive Embeds**: Easily embed interactive tweets and YouTube videos.
@@ -48,12 +48,11 @@ The server will be running at [http://localhost:3000](http://localhost:3000).
 2. Update your routes in `app/sitemap.ts` for SEO optimization.
 3. Update your blog posts in the `/content` folder.
 
-For more information about configuration, follow the instructions in the [Getting Started](https://nextfolio-template.vercel.app/blog/getting-started#configuration) post.
-
 ## Contributing
 
 Contributions are welcome! To get involved, just push your code to the repo. Whether you're enhancing existing features or adding new ones, your efforts are greatly appreciated!
 
 ## Licence
 
-Researchfolio is open-source and released under the MIT License.
+**Acknowledgements:** This project is based on [Nextfolio](https://github.com/1msirius/Nextfolio) (under the MIT license) and inspired by [al-folio](https://github.com/alshedivat/al-folio).
+
