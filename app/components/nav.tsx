@@ -11,7 +11,7 @@ const navItems = {
 
 export function Navbar() {
   return (
-    <nav className="py-4 border-b border-gray-200 dark:border-gray-700">
+    <nav className="sticky top-0 z-50 bg-white dark:bg-[#111010] py-4 border-b border-gray-200 dark:border-gray-700">
       <div className="flex items-center justify-end space-x-8">
         {Object.entries(navItems).map(([path, { name }]) => (
           <Link
