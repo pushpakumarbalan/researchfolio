@@ -7,6 +7,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import Footer from "./components/footer";
 import { ThemeProvider } from "./components/theme-switch";
 import { metaData } from "./lib/config";
+import VisitorMap from "./components/VisitorMap";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -92,6 +93,7 @@ export default function RootLayout({
             <div className="mt-8 mb-2">
               {children}
             </div>
+            <VisitorMap />
             <div className="border-t border-gray-200 dark:border-gray-700 mt-6 mb-4"></div>
             <Footer />
             <Analytics />
