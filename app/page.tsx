@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { socialLinks } from "./lib/config";
+import VisitorMap from "./components/VisitorMap";
 
 export default function Page() {
   return (
@@ -127,6 +128,11 @@ export default function Page() {
             </div>
           </div>
         </div>
+      </div>
+
+      {/* Visitor Map Section */}
+      <div className="mt-8">
+        <VisitorMap />
       </div>
     </section>
   );
