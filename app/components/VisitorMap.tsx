@@ -50,13 +50,6 @@ export default function VisitorMap() {
 
   return (
     <div className="w-full flex flex-col items-center my-8">
-      <h3 className="text-lg font-semibold mb-4 text-center">
-        78 Pageviews
-        <span className="block text-sm font-normal text-gray-600 dark:text-gray-400">
-          Oct. 09th - Nov. 09th
-        </span>
-      </h3>
-      
       <div className="w-full max-w-[600px] relative">
         {isLoading && (
           <div className="w-full h-[300px] flex items-center justify-center border border-gray-200 dark:border-gray-700 rounded-md bg-gray-50 dark:bg-gray-800">
