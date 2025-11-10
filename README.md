@@ -54,5 +54,5 @@ Contributions are welcome! To get involved, just push your code to the repo. Whe
 
 ## Licence
 
-**Acknowledgements:** This project is based on [Nextfolio](https://github.com/1msirius/Nextfolio) (under the MIT license) and inspired by [al-folio](https://github.com/alshedivat/al-folio).
+**Acknowledgements:** This project is based on and inspired by [al-folio](https://github.com/alshedivat/al-folio).
 
