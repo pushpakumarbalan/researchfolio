@@ -5,17 +5,15 @@ import VisitorMap from "./components/VisitorMap";
 export default function Page() {
   return (
     <section>
-      <a href={socialLinks.twitter} target="_blank">
-        <Image
-          src="/profile.png"
-          alt="Profile photo"
-          className="rounded-lg bg-gray-100 block lg:mt-5 mt-0 lg:mb-5 mb-10 mx-auto sm:float-right sm:ml-8 sm:mb-8"
-          unoptimized
-          width={280}
-          height={320}
-          priority
-        />
-      </a>
+      <Image
+        src="/profile.png"
+        alt="Profile photo"
+        className="rounded-lg bg-gray-100 block lg:mt-5 mt-0 lg:mb-5 mb-10 mx-auto sm:float-right sm:ml-8 sm:mb-8"
+        unoptimized
+        width={280}
+        height={320}
+        priority
+      />
       <h1 className="mb-8 text-2xl font-medium">Your R. Name!</h1>
       <div className="prose prose-neutral dark:prose-invert">
         <p>
